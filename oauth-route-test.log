@@ -1,0 +1,8 @@
+
+> react-example@0.0.0 dev
+> tsx server.ts
+
+◇ injected env (0) from .env // tip: ◈ encrypted .env [www.dotenvx.com]
+DataLens 3D server running on port 3012
+[2m2:08:45 am[22m [36m[1m[vite][22m[39m [32mvite.config.ts changed, restarting server...[39m
+[2m2:08:46 am[22m [36m[1m[vite][22m[39m server restarted.

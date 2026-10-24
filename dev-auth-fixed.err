@@ -1,0 +1,107 @@
+API key should be set when using the Gemini API.
+API key should be set when using the Gemini API.
+[33m(!) Your Vite config uses features that are unsupported by `configLoader: 'native'`, which is planned to become the default in a future major version of Vite:
+  - `__dirname` (vite.config.ts:11:27). Use `import.meta.dirname` instead
+Set `VITE_CONFIG_NATIVE_IGNORE_WARNING=true` to suppress this warning.[39m
+[2m11:35:02 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:35:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:35:57 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:36:21 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:36:28 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:36:46 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:36:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:36:56 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:36:59 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:37:00 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:37:31 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:37:31 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:37:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:37:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:38:01 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:38:02 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:38:34 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:38:34 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:38:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:38:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:39:05 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:39:05 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+BadRequestError: request aborted
+    at IncomingMessage.onAborted (C:\Users\avira\Downloads\Synora_Ai_Studio-main\Synora_Ai_Studio-main\node_modules\raw-body\index.js:245:10)
+    at IncomingMessage.emit (node:events:514:28)
+    at IncomingMessage._destroy (node:_http_incoming:277:10)
+    at _destroy (node:internal/streams/destroy:122:10)
+    at IncomingMessage.destroy (node:internal/streams/destroy:84:5)
+    at abortIncoming (node:_http_server:921:9)
+    at socketOnClose (node:_http_server:914:3)
+    at Socket.emit (node:events:526:24)
+    at TCP.<anonymous> (node:net:362:12)
+[2m11:39:37 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:39:37 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:39:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:39:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:06 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:06 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:09 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:09 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:30 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:30 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:41 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:41 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:56 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:56 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:57 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:57 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:59 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:40:59 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:41:01 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:41:02 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:41:12 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:41:12 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:41:43 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:41:44 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:41:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:41:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:42:15 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:42:16 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:42:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:42:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:42:59 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:42:59 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:00 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:00 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:05 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:05 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:21 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:22 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:29 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:30 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:43:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:44:12 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:44:13 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:44:43 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:44:43 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:44:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:44:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:45:14 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:45:14 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:45:45 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:45:45 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:45:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:45:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:46:16 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:46:47 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:46:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:47:18 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:47:39 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:47:40 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:47:49 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:47:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:48:20 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:48:54 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:48:55 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.
+[2m11:49:47 pm[22m [33m[1m[vite][22m[39m [33m[2m(client)[22m[39m [2m[console.warn] [22mTHREE.Clock: This module has been deprecated. Please use THREE.Timer instead.

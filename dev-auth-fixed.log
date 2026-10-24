@@ -1,0 +1,10 @@
+
+> react-example@0.0.0 dev
+> tsx server.ts
+
+◇ injected env (0) from .env // tip: ◈ secrets for agents [www.dotenvx.com]
+DataLens 3D server running on port 3000
+[2m11:40:05 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css[22m
+[2m11:40:29 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/LandingPage.tsx, /src/index.css[22m
+[2m11:40:40 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/components/IntroScreen.tsx, /src/index.css[22m
+[2m11:42:58 pm[22m [36m[1m[vite][22m[39m [90m[2m(client)[22m[39m [32mhmr update [39m[2m/src/index.css, /src/components/Navbar.tsx, /src/components/KnowledgeGraphView.tsx, /src/components/AskDataLensView.tsx, /src/components/IntroScreen.tsx[22m
